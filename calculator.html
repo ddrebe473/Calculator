@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css" />
+  </head>
+  <body style="padding: 0 0 0 0; margin: 0 0 0 0">
+    <div class="calculator-grid">
+      <div class="output" id="output"></div>
+      <button onclick="clearAll()" class="span-two">AC</button>
+      <button onclick="enterNumber('1')">1</button>
+      <button onclick="enterNumber('2')">2</button>
+      <button onclick="enterNumber('3')">3</button>
+      <button onclick="enterNumber('4')">4</button>
+      <button onclick="enterNumber('5')">5</button>
+      <button onclick="enterNumber('6')">6</button>
+      <button onclick="enterNumber('7')">7</button>
+      <button onclick="enterNumber('8')">8</button>
+      <button onclick="enterNumber('9')">9</button>
+      <button onclick="enterNumber('0')">0</button>
+      <button onclick="setOperator('+')">+</button>
+      <button onclick="setOperator('-')">-</button>
+      <button onclick="setOperator('/')">÷</button>
+      <button onclick="setOperator('*')">*</button>
+      <button onclick="removecharacter()">DEL</button>
+      <button onclick="enterNumber('.')">.</button>
+    
+      <button onclick="setAnswer()" class="span-two">=</button>
+    </div>
+
+    <script src="calculator.js"></script>
+  </body>
+</html>
